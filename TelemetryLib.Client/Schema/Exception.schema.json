@@ -1,0 +1,35 @@
+{
+   "EventName": "Exception",
+   "ImmidiateSend": "true",
+   "SendSystemSnapshot": "true",
+   "Params": [
+      {
+         "Name": "Total Physical Memory",
+         "Type": "Text",
+         "Size": "50",
+         "Mandatory": "true",
+         "Default": "31.9 GB"
+      },
+      {
+         "Name": "Available Physical Memory",
+         "Type": "Text",
+         "Size": "100",
+         "Mandatory": "true",
+         "Default": "23.8 GB"
+      },
+      {
+         "Name": "Percent memory used",
+         "Type": "Text",
+         "Size": "100",
+         "Mandatory": "true",
+         "Default": "450.8 MB"
+      },
+      {
+         "Name": "Graphics card info",
+         "Type": "Text",
+         "Size": "100",
+         "Mandatory": "true",
+         "Default": "Nvidia GTX 330"
+      }
+   ]
+}

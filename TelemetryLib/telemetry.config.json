@@ -1,0 +1,11 @@
+{
+  "TrackingID": "98d90dc7-c6a9-4490-ad0c-fe6d95bad48d",
+  "ApplicationName": "3DExpert",
+  "UseEventSchema": "false",
+  "ImmidiateSend": "false",
+  "Platform": "ThreeDSCustom",
+  "ScheduleCachedhedEventsTime": "1",
+  "EndPointType": "ThreeDSCustom",
+  "CollectionEndPoint": "http://10.249.0.46/api/telemetry/collect",
+  "IPProvider": "https://api.ipify.org"
+}

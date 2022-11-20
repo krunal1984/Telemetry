@@ -1,0 +1,39 @@
+<Schema>
+	<EventName>File Export</EventName>
+	<ImmidiateSend>false</ImmidiateSend>
+  <SendSystemSnapshot>true</SendSystemSnapshot>
+	<Params>
+		<Param>
+			<Name>Action</Name> 
+			<Type>Text</Type>    
+			<Size>10</Size>
+			<Mandatory>true</Mandatory>
+			<Default>btn_file_export_click</Default>
+		</Param>
+		
+		<Param>
+			<Name>File Name</Name>
+			<Type>Text</Type>
+			<Size>50</Size>
+			<Mandatory>true</Mandatory>
+			<Default>Rectangle</Default>
+		</Param>
+
+    <Param>
+      <Name>File Type</Name>
+      <Type>Text</Type>
+      <Size>20</Size>
+      <Mandatory>true</Mandatory>
+      <Default>STL</Default>
+    </Param>
+    
+	  <Param>
+			<Name>File Size</Name>
+			<Type>Text</Type>
+			<Size>20</Size>
+      <Default>500 MB</Default>
+			<Mandatory>true</Mandatory>
+		</Param>
+  
+	</Params>
+</Schema>

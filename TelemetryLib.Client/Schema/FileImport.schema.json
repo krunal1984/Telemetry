@@ -1,0 +1,42 @@
+{
+   "EventName": "File Import",
+   "ImmidiateSend": "true",
+   "Params": [
+      {
+         "Name": "Action",
+         "Type": "Text",
+         "Size": "10",
+         "Mandatory": "true",
+         "Default": "btn_file_import_click",
+         "SendSystemSnapshot": "true"
+      },
+      {
+         "Name": "File Name",
+         "Type": "Text",
+         "Size": "50",
+         "Mandatory": "true",
+         "Default": "Cube"
+      },
+      {
+         "Name": "File Type",
+         "Type": "Text",
+         "Size": "100",
+         "Mandatory": "true",
+         "Default": "STL"
+      },
+      {
+         "Name": "File Size",
+         "Type": "Text",
+         "Size": "20",
+         "Default": "256 MB",
+         "Mandatory": "true"
+      },
+      {
+         "Name": "No of Triangles",
+         "Type": "Number",
+         "Size": "10",
+         "Mandatory": "true",
+         "Default": "50"
+      }
+   ]
+}

@@ -1,0 +1,33 @@
+<Schema>
+	<EventName>AutoPlace</EventName>
+	<ImmidiateSend>False</ImmidiateSend>
+	<Params>
+		<Param>
+		<Name>Action</Name> 
+		<Type>Text</Type>    
+		<Size>10</Size>
+		<Mandatory>True</Mandatory>
+		</Param>
+		
+		<Param>
+		<Name>Printer_Name</Name>
+		<Type>Text</Type>
+		<Size>50</Size>
+		<Mandatory>True</Mandatory>
+		</Param>
+		
+	  <Param>
+		<Name>Printer_Technology</Name>
+		<Type>Text</Type>
+		<Size>20</Size>
+		<Mandatory>True</Mandatory>
+		</Param>
+
+    <Param>
+      <Name>Result</Name>
+      <Type>Text</Type>
+      <Size>10</Size>
+      <Mandatory>True</Mandatory>
+    </Param>
+	</Params>
+</Schema>

@@ -1,0 +1,30 @@
+{
+   "EventName": "AutoPlace",
+   "ImmidiateSend": "False",
+   "Params": [
+      {
+         "Name": "Action",
+         "Type": "Text",
+         "Size": "10",
+         "Mandatory": "True"
+      },
+      {
+         "Name": "Printer_Name",
+         "Type": "Text",
+         "Size": "50",
+         "Mandatory": "True"
+      },
+      {
+         "Name": "Printer_Technology",
+         "Type": "Text",
+         "Size": "20",
+         "Mandatory": "True"
+      },
+      {
+         "Name": "Result",
+         "Type": "Text",
+         "Size": "10",
+         "Mandatory": "True"
+      }
+   ]
+}

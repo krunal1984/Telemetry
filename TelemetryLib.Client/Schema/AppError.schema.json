@@ -1,0 +1,21 @@
+{
+   "EventName": "AppError",
+   "ImmidiateSend": "true",
+   "SendSystemSnapshot": "true",
+   "Params": [
+      {
+         "Name": "Code",
+         "Type": "Text",
+         "Size": "50",
+         "Mandatory": "true",
+         "Default": "System.DivideByZeroException"
+      },
+      {
+         "Name": "Details",
+         "Type": "Text",
+         "Size": "100",
+         "Mandatory": "true",
+         "Default": "Attempted to divide by zero. at TelemetryLib.Client.Program.Main(String[] args) at line no 345"
+      }
+   ]
+}

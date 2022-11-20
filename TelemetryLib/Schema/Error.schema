@@ -1,0 +1,6 @@
+<Schema EventName = "AppError" ImmidiateSend="True" >
+	<Params>
+		<Param Name= "Code" Type="Text" Mandatory="True"></Param>
+		<Param Name= "Details" Type="Text" Mandatory="True"></Param>
+	</Params>
+</Schema>

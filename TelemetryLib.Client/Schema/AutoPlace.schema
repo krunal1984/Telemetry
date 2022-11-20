@@ -1,0 +1,38 @@
+<Schema>
+	<EventName>AutoPlace</EventName>
+	<ImmidiateSend>false</ImmidiateSend>
+  <SendSystemSnapshot>false</SendSystemSnapshot>
+	<Params>
+		<Param>
+		<Name>Action</Name> 
+		<Type>Text</Type>    
+		<Size>10</Size>
+    <Default>btn_autoplace_click</Default>
+		<Mandatory>true</Mandatory>
+		</Param>
+		
+		<Param>
+		<Name>Printer_Name</Name>
+		<Type>Text</Type>
+		<Size>50</Size>
+		<Mandatory>true</Mandatory>
+    <Default>ProJet 3500</Default>
+		</Param>
+		
+	  <Param>
+		<Name>Printer_Technology</Name>
+		<Type>Text</Type>
+		<Size>20</Size>
+		<Mandatory>true</Mandatory>
+     <Default>SLA</Default>
+		</Param>
+
+    <Param>
+      <Name>Result</Name>
+      <Type>Text</Type>
+      <Size>10</Size>
+      <Mandatory>true</Mandatory>
+      <Default>Pass</Default>
+    </Param>
+	</Params>
+</Schema>

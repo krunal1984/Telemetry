@@ -1,0 +1,16 @@
+{
+   "EventName": "AppError",
+   "ImmidiateSend": "True",
+   "Params": [
+      {
+         "Name": "Code",
+         "Type": "Text",
+         "Mandatory": "True"
+      },
+      {
+         "Name": "Details",
+         "Type": "Text",
+         "Mandatory": "True"
+      }
+   ]
+}

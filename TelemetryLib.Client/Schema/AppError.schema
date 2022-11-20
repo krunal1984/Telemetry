@@ -1,0 +1,21 @@
+<Schema>
+<EventName>AppError</EventName>
+	<ImmidiateSend>false</ImmidiateSend>
+  <SendSystemSnapshot>true</SendSystemSnapshot>
+  <Params>
+		<Param>
+		<Name>Code</Name> 
+		<Type>Text</Type>    
+		<Size>50</Size>
+		<Mandatory>true</Mandatory>
+    <Default>System.DivideByZeroException</Default>
+		</Param>		
+		<Param>
+		<Name>Details</Name> 
+		<Type>Text</Type>    
+		<Size>100</Size>
+		<Mandatory>true</Mandatory>
+      <Default>Attempted to divide by zero. at TelemetryLib.Client.Program.Main(String[] args) at line no 345</Default>
+		</Param>
+</Params>		
+</Schema>

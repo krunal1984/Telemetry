@@ -1,0 +1,46 @@
+<Schema>
+	<EventName>File Import</EventName>
+	<ImmidiateSend>false</ImmidiateSend>
+	<Params>
+		<Param>
+			<Name>Action</Name> 
+			<Type>Text</Type>    
+			<Size>10</Size>
+			<Mandatory>true</Mandatory>
+			<Default>btn_file_import_click</Default>
+      <SendSystemSnapshot>true</SendSystemSnapshot>
+		</Param>
+		
+		<Param>
+			<Name>File Name</Name>
+			<Type>Text</Type>
+			<Size>50</Size>
+			<Mandatory>true</Mandatory>
+			<Default>Cube</Default>
+		</Param>
+
+    <Param>
+      <Name>File Type</Name>
+      <Type>Text</Type>
+      <Size>100</Size>
+      <Mandatory>true</Mandatory>
+      <Default>STL</Default>
+    </Param>
+    
+	  <Param>
+			<Name>File Size</Name>
+			<Type>Text</Type>
+			<Size>20</Size>
+      <Default>256 MB</Default>
+			<Mandatory>true</Mandatory>
+		</Param>
+
+    <Param>
+      <Name>No of Triangles</Name>
+      <Type>Number</Type>
+      <Size>10</Size>
+      <Mandatory>true</Mandatory>
+      <Default>50</Default>
+    </Param>
+	</Params>
+</Schema>

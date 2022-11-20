@@ -1,0 +1,35 @@
+{
+   "EventName": "AutoPlace",
+   "ImmidiateSend": "true",
+   "SendSystemSnapshot": "false",
+   "Params": [
+      {
+         "Name": "Action",
+         "Type": "Text",
+         "Size": "10",
+         "Default": "btn_autoplace_click",
+         "Mandatory": "true"
+      },
+      {
+         "Name": "Printer_Name",
+         "Type": "Text",
+         "Size": "50",
+         "Mandatory": "true",
+         "Default": "ProJet 3500"
+      },
+      {
+         "Name": "Printer_Technology",
+         "Type": "Text",
+         "Size": "20",
+         "Mandatory": "true",
+         "Default": "SLA"
+      },
+      {
+         "Name": "Result",
+         "Type": "Text",
+         "Size": "10",
+         "Mandatory": "true",
+         "Default": "Pass"
+      }
+   ]
+}

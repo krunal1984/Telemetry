@@ -1,0 +1,35 @@
+{
+   "EventName": "File Export",
+   "ImmidiateSend": "true",
+   "SendSystemSnapshot": "true",
+   "Params": [
+      {
+         "Name": "Action",
+         "Type": "Text",
+         "Size": "10",
+         "Mandatory": "true",
+         "Default": "btn_file_export_click"
+      },
+      {
+         "Name": "File Name",
+         "Type": "Text",
+         "Size": "50",
+         "Mandatory": "true",
+         "Default": "Rectangle"
+      },
+      {
+         "Name": "File Type",
+         "Type": "Text",
+         "Size": "20",
+         "Mandatory": "true",
+         "Default": "STL"
+      },
+      {
+         "Name": "File Size",
+         "Type": "Text",
+         "Size": "20",
+         "Default": "500 MB",
+         "Mandatory": "true"
+      }
+   ]
+}

@@ -1,0 +1,36 @@
+<Schema>
+<EventName>Exception</EventName>
+	<ImmidiateSend>false</ImmidiateSend>
+  <SendSystemSnapshot>true</SendSystemSnapshot>
+	<Params>
+		<Param>
+			<Name>Total Physical Memory</Name> 
+			<Type>Text</Type>    
+			<Size>50</Size>
+			<Mandatory>true</Mandatory>
+			<Default>31.9 GB</Default>
+		</Param>		
+		<Param>
+				<Name>Available Physical Memory</Name> 
+				<Type>Text</Type>    
+				<Size>100</Size>
+				<Mandatory>true</Mandatory>
+				<Default>23.8 GB</Default>
+		</Param>
+    <Param>
+      <Name>Percent memory used</Name>
+      <Type>Text</Type>
+      <Size>100</Size>
+      <Mandatory>true</Mandatory>
+      <Default>450.8 MB</Default>
+    </Param>
+    <Param>
+    <Name>Graphics card info</Name>
+    <Type>Text</Type>
+    <Size>100</Size>
+    <Mandatory>true</Mandatory>
+    <Default>Nvidia GTX 330</Default>
+    </Param>
+    
+  </Params>		
+</Schema>
